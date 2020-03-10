@@ -1,0 +1,16 @@
+import webbrowser
+
+def google():
+    webbrowser.open('https://google.com')
+
+def codecademy():
+    webbrowser.open('https://codecademy.com')
+    
+
+choose = input('Where do you want to go? google or codecademy: ')
+
+if choose == 'google':
+    google()
+
+if choose == 'codecademy':
+    codecademy()
